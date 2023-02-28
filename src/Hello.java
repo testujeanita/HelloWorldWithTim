@@ -32,5 +32,21 @@ public class Hello {
         if (!isCar) {
             System.out.println("This is suppose to happen isCar for true !isCar for false");
         }
+
+        String makeOfCar = "Volkswagen";
+        boolean isDomestic = (makeOfCar == "Volkswagen") ? false : true;
+
+        if (isDomestic) {
+            System.out.println("This make of Car is Domestic");
+        }
+
+        String s = (isDomestic) ? "This car is Domestic" : "This car is not Domestic";
+        System.out.println(s);
+
+        int ageOfClient = 20;
+        String ageText = (ageOfClient >= 18) ? "Over Eighteen" : "Still a kid";
+        System.out.println("Our client is " + ageText);
+
+
     }
 }
