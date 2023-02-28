@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d394835-984b-45ed-aaf9-b8284c4e5c06" name="Changes" comment="new operations with boolean">
+    <list default="true" id="8d394835-984b-45ed-aaf9-b8284c4e5c06" name="Changes" comment="ternary operators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hello.java" afterDir="false" />
     </list>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677565777235</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ternary operators">
+      <created>1677567270958</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677567270958</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +132,7 @@
     <MESSAGE value="addind more logical operations" />
     <MESSAGE value="addind OR operator" />
     <MESSAGE value="new operations with boolean" />
-    <option name="LAST_COMMIT_MESSAGE" value="new operations with boolean" />
+    <MESSAGE value="ternary operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="ternary operators" />
   </component>
 </project>

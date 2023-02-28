@@ -47,6 +47,28 @@ public class Hello {
         String ageText = (ageOfClient >= 18) ? "Over Eighteen" : "Still a kid";
         System.out.println("Our client is " + ageText);
 
+        double step1 = 20.00;
+        double step2 = 80.00;
+        double step3 = (step1 + step2) * 100.00;
+        double step4 = step3 % 40.00;
+        boolean isTrue = step4 == 0.00;
+        System.out.println("isTrue = " + isTrue);
+        if (!isTrue) {
+            System.out.println("Got some remainder");
+        }
+        System.out.println("step3 = " + step3);
+        System.out.println("step4 = " + step4);
+
+//        boolean isTrue = (step4 == 0.00) ? true : false;
+//        System.out.println(isTrue);
+
+//        if (step4 != 0.00) {
+//            System.out.println("Got some remainder");
+
+
+
+
+
 
     }
 }
